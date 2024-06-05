@@ -1,0 +1,63 @@
+*{padding: 0%;margin: 0%;}
+body{font-family: 'Gabarito',sans-serif;}
+.container{padding:75px;}
+.navbar{display: flex;justify-content:space-between;border-bottom: black 1px;
+    gap: 10px;position: sticky;top: 0%;background-color: white;z-index: 1;margin-bottom: 2px;align-items: center;gap:10px;
+}
+
+.navbar__title{display: inline;justify-content:space-between;}
+.navbar__s3{display: flex;gap:20px;font-size: 18px;justify-content:center; margin-right: 10px;gap: 10px;
+    align-items: center;}
+.navbar__signin{background-color: black;color: white;width: 100%;padding: 10px;border-radius: 20px;display: flex;
+height: min-content;}  
+.navbar__s4{display: flex;justify-content:center;gap:20px;}
+.place{align-items: center;margin-top: 100px;font-size: 50px;}
+.search{display: flex;justify-content: center;gap: 20px;font-size: 20px;margin-top: 30px;}
+
+.searchbar1{padding: 10px;border: solid black 1px; border-radius: 30px;
+    width: 70%;display: flex;gap: 10px;height: 20px;margin-top: 20px;margin-bottom: 40px;}
+.searchbar1 input{border: none;width:100%;}
+.searchbar1 input:focus{outline: none;}
+
+.searchbar{padding: 20px;border: solid black 1px; border-radius: 30px;justify-content: center;align-items: center;
+    width: 200px;display: flex;height: 20px;margin-top: 20px;margin-bottom: 40px;position: sticky;}
+.searchbar input{border: none;width:100%;}
+.searchbar input:focus{outline: none;}
+
+.stay{padding: 10px;margin-bottom: 30px;}
+.stay-container{display: flex;justify-content: space-between;margin-top: 20px;flex-wrap: wrap;margin-bottom: 50px;}
+.hotel-card{width: 250px;margin-bottom: 60px;}
+.hotel-card img{width: 250px;height: 300px;border-radius: 20px;}
+h2{color: black}
+.tour{padding: 10px;}
+.tour-container{display: flex;justify-content: space-between;margin-top: 20px;flex-wrap: wrap;margin-bottom: 50px;}
+.tour-card{width: 250px;margin-bottom: 60px;}
+.tour-card img{width: 250px;height: 300px;border-radius: 20px;}
+
+.adven{padding: 10px;}
+.adven-container{display: flex;justify-content: space-between;margin-top: 20px;flex-wrap: wrap;margin-bottom: 50px;}
+.adven-card{width: 250px;margin-bottom: 60px;margin-top: 20px;}
+.adven-card img{width: 250px;height: 300px;border-radius: 20px;}
+
+.suggest{padding: 10px;margin-bottom: 30px;}
+.suggest-container{display: flex;justify-content: space-between;margin-top: 20px;flex-wrap: wrap;margin-bottom: 50px;}
+.suggest-card{width: 250px;margin-bottom: 60px;}
+.suggest-card img{width: 250px;height: 300px;border-radius: 20px;}
+.add img{width: 100%;display: inline-block;}
+.imgadd img{width: 100%;display: inline-block;}
+.footer{margin-top: 60px;color: black;padding: 30px;background-color:blanchedalmond;width: 100%;}
+.footer_one{display: flex;gap: 10px;}
+.footer_one p{margin: 5px;}
+.footer__two{display: flex;margin: 20px;align-items: center;gap: 10px;}
+.footer__two_1{display: flex;gap: 10px;}
+@media screen and (max-width:500px) {.hotel-card{flex-basis: 40%;}}
+@media screen and (max-width:500px) {.adven-card{flex-basis: 40%;}}
+@media screen and (max-width:500px) {.tour-card{flex-basis: 40%;}}
+@media screen and (max-width:500px) {.suggest-card{flex-basis: 40%;}}
+
+
+
+@media (min-width:1024px) {.searchbar{display: none;}.navbar__s3{display:flex;justify-content: center;align-items: center;}}
+@media (max-width:1023px) {.searchbar{display: block;position: sticky;}}
+
+
